@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "lib": [
+            "dom",
+            "esnext",
+        ],
+       "strict": true,
+       "sourceMap": true,
+       "target": "ES5",
+       "outDir": "./release",
+       "module": "ESNext",
+       "resolveJsonModule": true,
+       "allowSyntheticDefaultImports": true
+    },
+    "exclude": [
+       "node_modules"
+    ],
+     "include": [
+        "src/**/*.ts"
+     ]
+  
+ }

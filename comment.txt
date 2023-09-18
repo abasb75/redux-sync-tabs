@@ -1,0 +1,5 @@
+mkdirp --dev
+fs-extra --dev
+inquirer@8.0.0 --dev
+tsup --dev
+npm install --save-dev rollup-plugin-node-resolve

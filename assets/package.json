@@ -1,0 +1,35 @@
+{
+  "name": "redux-sync-tabs",
+  "version": "__APP_VERSION__",
+  "description": "a @redux-toolkit framework for cross browswer tabs states",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "redux",
+    "state",
+    "saza",
+    "react-redux",
+    "context"
+  ],
+  "targets": {
+    "main": {
+      "includeNodeModules": true
+    }
+  },
+  "author": "Abbas Bagheri <abasbagheria@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abasb75/redux-pro.git"
+  },
+    "bugs": {
+    "url": "https://github.com/abasb75/redux-pro/issues"
+  },
+  "homepage": "https://github.com/abasb75/redux-pro#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "redux": "^4.2.1"
+  }
+}
