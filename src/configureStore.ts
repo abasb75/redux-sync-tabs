@@ -1,5 +1,5 @@
 import { configureStore as toolkitConfigureStore } from "@reduxjs/toolkit";
-import { ConfigureStoreOptions } from "@reduxjs/toolkit";
+import type { ConfigureStoreOptions } from "@reduxjs/toolkit";
 import { PREFIX } from "./createSlice";
 
 function configureStore(options:ConfigureStoreOptions){
@@ -17,7 +17,6 @@ function configureStore(options:ConfigureStoreOptions){
             const data = JSON.parse(e.newValue || '');
             const key = data.key;
             const payload = data.value;
-            console.log(key,payload)
             store.dispatch({
                 type:'SYNC_DATA_REDUX_TOOLKIT_CROSS_TABS_SYNCS',
                 key:data.key,

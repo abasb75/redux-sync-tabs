@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "declaration": true,
         "esModuleInterop": true,
         "jsx": "react",
         "moduleResolution": "node",
@@ -11,15 +12,14 @@
        "sourceMap": true,
        "target": "ES5",
        "outDir": "./release",
-       "module": "ESNext",
+       "module": "ES2015",
        "resolveJsonModule": true,
        "allowSyntheticDefaultImports": true
     },
     "exclude": [
-       "node_modules"
+       "node_modules","rollup.config.js"
     ],
-     "include": [
+    "include": [
         "src/**/*.ts"
-     ]
-  
- }
+    ]
+}

@@ -34,8 +34,8 @@ fs.copyFileSync(`./README.md`,`${releaseDirectory}/README.md`);
 /* copy src to release */
 //fse.copySync(srcDirectory,releaseDirectory);
 
-execSync(`tsc`);
-//execSync(`rollup ${srcDirectory}/index.ts --file ${releaseDirectory}/index.js --format esm`, {stdio: 'inherit'});
+//execSync(`tsc`);
+execSync(`rollup -c`, {stdio: 'inherit'});
 
 /* setting up app version in package.json */
 inquirer.prompt(questions).then(answers => {
